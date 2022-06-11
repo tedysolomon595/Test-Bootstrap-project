@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;1,100&family=Kdam+Thmor+Pro&family=PT+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.height-card {
+    height: auto;
+}
+
+.height-20 {
+    height: 400px;
+    width: 100%;
+}
+
+#filler {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('./img/img_2.jpg') center/cover no-repeat;
+}
+
+.height-20 img {
+    height: 100%;
+}
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.title-underline {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.about-picture {
+    background: url('../img/img_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

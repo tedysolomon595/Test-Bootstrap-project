@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <title>Grid</title>
+</head>
+<style>
+    body {
+        background-color: blueviolet;
+    }
+    
+    @media screen and (min-width:576px) {
+        body {
+            background-color: aqua;
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        body {
+            background-color: greenyellow;
+        }
+    }
+    
+    @media screen and (min-width:992px) {
+        body {
+            background-color: green;
+        }
+    }
+    
+    @media screen and (min-width:1200px) {
+        body {
+            background-color: yellow;
+        }
+    }
+</style>
+
+<body>
+    <div class="container bg-danger">
+        Hey I am Container
+    </div>
+    <div class="container-fluid bg-primary">
+        Hey I am container-fluid
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger">
+                Hello
+            </div>
+            <div class="col bg-warning">
+                Hello
+            </div>
+            <div class="col bg-info">
+                Hello
+            </div>
+            <div class="col bg-success">
+                Hello
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-6 bg-light">
+                Hello
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-6 bg-secondary">
+                Hello
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-6 bg-warning">
+                Hello
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-6 bg-danger">
+                Hello
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
